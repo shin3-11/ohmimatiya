@@ -12,6 +12,12 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'HimeMinchoTomoegozen';
+  src: url("../fonts/HimeMinchoTomoegozen/姫明朝ともえごぜん.otf");
+  font-weight: normal;
+  font-style: normal; }
+
 .mouse-wrap, .scroll-wrap {
   position: absolute;
   bottom: 50px;
@@ -1032,7 +1038,9 @@ input, textarea, p {
   color: #fff; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300 !important; }
+  font-weight: 300 !important;
+  font-family: HimeMinchoTomoegozen;
+}
 
 a {
   -webkit-transition: .3s all ease;
